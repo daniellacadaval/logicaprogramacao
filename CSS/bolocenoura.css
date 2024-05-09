@@ -1,0 +1,23 @@
+#estilo-header{
+    text-align: center;
+    background-color: cornflowerblue;
+    margin: 50px;
+    padding: 50px;
+    border: 15p;
+    font-size: 50px;
+    font-family: fantasy Chalkduster;
+}
+
+img{
+    display: block;
+    margin: auto;
+    width: 900px;
+    height: 700px;
+}
+
+.fonte-tamanho{
+    font-size: 50px;
+}
+.fonte-size{
+    font-size: 30px;
+}

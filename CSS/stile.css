@@ -1,0 +1,30 @@
+p{
+    color: cornflowerblue;
+}
+
+#texto-unico{
+    color: blue;
+}
+
+.texto-verde{
+    color: green;
+} 
+
+.dentro{
+    
+   width: 200px;
+   height: 100px;
+   /*background-color: rgb(112, 218, 177);*/
+   background-image: ;
+   margin: 10px;
+   
+}
+
+.fora{
+    width: 400px;
+    height: 200px;
+    background-color: blueviolet;
+    padding: 30px;
+ 
+}
+
