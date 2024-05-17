@@ -41,25 +41,25 @@
 // }
 
 //EXERCÍCIO 3
-let filaloterica = []
-let nome
-while(filaloterica.length < 5){
-     let escolha = Number(prompt(`Digite:\n1 para entrar na fila\n2 - para sair da fila`))
-    switch(escolha){
-        case 1:
-            nome = prompt(`Digite seu nome:`)
-            filaloterica.push(nome)
-            break
-        case 2:
-            filaloterica.shift(nome)
-            break
-        default:
-            alert(`Opção inválida`)
+// let filaloterica = []
+// let nome
+// while(filaloterica.length < 5){
+//      let escolha = Number(prompt(`Digite:\n1 para entrar na fila\n2 - para sair da fila`))
+//     switch(escolha){
+//         case 1:
+//             nome = prompt(`Digite seu nome:`)
+//             filaloterica.push(nome)
+//             break
+//         case 2:
+//             filaloterica.shift(nome)
+//             break
+//         default:
+//             alert(`Opção inválida`)
 
-        }
+//         }
         
-    }
-    alert(`A fila ao final está assim:\n${filaloterica.join('\n ')}`);
+//     }
+//     alert(`A fila ao final está assim:\n${filaloterica.join('\n ')}`);
 
 //EXERCÍCIO 4
 
@@ -71,7 +71,7 @@ while(filaloterica.length < 5){
 //     switch(alistamento){
 //         case 1:
 //             console.log(`Houve alistamento em ${i}`)
-//             ano.push(alistamento)
+//             ano.push(i)
 //             break
 //         case 2:
 //             console.log(`Não houve alistamento em ${i}`);
@@ -83,7 +83,12 @@ while(filaloterica.length < 5){
 //         console.log(alistamento);
 // }
 
-// for(let contador = 0; contador < ultimoAlistamento.length; contador++ ){
+// if(ano.length == 0){
+//     alert(`Não houve alistamento nos últimos 10 anos`)
+// }else{
+//     alert(`O último ano em que houve alistamento foi ${ano[ano.length - 1]}`)
+
+// }
 
 // }
 
@@ -127,3 +132,21 @@ while(filaloterica.length < 5){
 //     console.log(transmissaoAmbos)
 
 //  }
+
+//EXERCÍCIO 6
+
+let produto = []
+let valor = []
+let valorProduto = 0
+for(let i=0;i<5; i++){
+    let nomeProduto = prompt(`Digite o produto:`)
+    produto.push(nomeProduto)
+    valorProduto = Number(prompt(`Digite o valor do produto: R$`))
+    valor.push(valorProduto)
+    console.log(valor)
+}
+
+
+
+
+
